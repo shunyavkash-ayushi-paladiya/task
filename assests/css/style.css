@@ -157,43 +157,51 @@ img {
 
 
 .self-right>div:last-of-type li {
-    border: 2px solid  #ffffff6c;
+    border: 2px solid #ffffff6c;
     border-radius: 10px;
     margin-top: 30px;
     padding: 15px;
 }
 
-.self-right>div:last-of-type div{
+.self-right>div:last-of-type div {
     margin-top: 10px;
     padding: 0;
     display: flex;
     gap: 10px;
 }
 
-.self-right>div:last-of-type h5{
+.self-right>div:last-of-type h5 {
     font-size: 26px;
     font-weight: 500;
     color: var(--fifth);
 }
 
-.self-right>div:last-of-type svg{
+.self-right>div:last-of-type svg {
     width: 30px;
     height: 30px;
     color: var(--fifth);
 }
 
-.self-right>div:last-of-type span{
+.self-right>div:last-of-type span {
     font-size: 20px;
     font-weight: 500;
     color: var(--fifth);
 }
 
-.self-right ul li a.active {
+.self-right ul li a.clicked {
     border-left: 3px solid var(--ternory);
-    transition:  border 0.3s ease-in-out;
-  }
-  
-  .self-left h2 {
-    scroll-margin-top: 100px; 
-  }
-  
+    transition: border 0.3s ease-in-out;
+}
+
+.self-left h2 {
+    scroll-margin-top: 100px;
+}
+
+.self-right>div:last-of-type h6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--fifth);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
