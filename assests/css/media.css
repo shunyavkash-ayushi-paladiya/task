@@ -1,0 +1,28 @@
+@media screen and (max-width:768px) {
+    .self-inner {
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    .self-right {
+        position: static;
+        max-width: 100%;
+    }
+
+    .self-right ul:nth-of-type(2){
+        justify-content: flex-start;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:575px){
+    .self-right ul:nth-of-type(2){
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: flex-start;
+    }
+
+    .self-left h2{
+        font-size: 36px;
+    }
+}
